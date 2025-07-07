@@ -1,0 +1,90 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D25AB8;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #0C0C0C;
+    background-color: ;
+    padding: 20px;
+}
+
+header img {
+    width: 80px;
+}
+
+header h1 {
+    margin: 10px 0 0 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #A06BF1;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 30px;
+    background-color: #E895BD;
+    margin-bottom: 10px;
+}
+
+#inicio {
+    background-color: #A06BF1;
+}
+
+#muestrario img {
+    margin: 10px;
+    width: 300px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0C0C0C;
+    color: white;
+    padding: 15px;
+}
+/* Estilo para todas las imágenes */
+img {
+    margin: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para las imágenes dentro de la sección de muestrario */
+#muestrario img {
+    width: 300px;
+}
+
+/* Estilo específico para el banner */
+#banner img {
+    width: 500px;
+}
+.tatuador {
+    width: 300px; /* Podés cambiar el valor a gusto, por ejemplo 400px si querés más grande */
+    margin: 10px;
+    border-radius: 8px;
+}
